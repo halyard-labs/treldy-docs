@@ -1,0 +1,31 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "mint",
+  "name": "Treldy",
+  "description": "Help with getting started, invoices and bank accounts in Treldy.",
+  "favicon": "/favicon.svg",
+  "colors": {
+    "primary": "#1f4fe3",
+    "light": "#7098ff",
+    "dark": "#1f4fe3"
+  },
+  "navigation": {
+    "groups": [
+      {
+        "group": "Getting started",
+        "pages": ["index", "guides/invoices", "guides/bank-accounts"]
+      },
+      {
+        "group": "Help",
+        "pages": ["guides/contact"]
+      }
+    ]
+  },
+  "navbar": {
+    "primary": {
+      "type": "button",
+      "label": "Open Treldy",
+      "href": "https://treldy.app/"
+    }
+  }
+}
